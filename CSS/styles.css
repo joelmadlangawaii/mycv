@@ -1,0 +1,196 @@
+/****************TAG SELECTOR****************/
+a {
+  color: #1fab89;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+  font-weight: bold;
+  /*color: #62d2a2;*/
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  color: #62d2a2;
+  /*color: #1fab89;*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #62d2a2;
+  margin: 10px;
+  font-size: 50px;
+  /*color: #1fab89;*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1fab89;
+  font-weight: bold;
+  line-height: 2;
+  /*color: #62d2a2;*/
+}
+
+hr {
+  width: 4%;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top: 4px dotted grey;
+  margin: 75px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/****************CLASS SELECTOR****************/
+.bottom-container {
+  background-color: #9df3c4;
+  padding: 25px 0 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.Contact-me {
+  background: linear-gradient(to bottom, #1fab88 5%, #62d2a1 100%);
+  background-color: #1fab88;
+  border-radius: 28px;
+  border: 1px solid #1db32c;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #2f6627;
+}
+
+.Contact-me:hover {
+  background: linear-gradient(to bottom, #62d2a1 5%, #1fab88 100%);
+  background-color: #62d2a1;
+}
+
+.Contact-me:active {
+  position: relative;
+  top: 1px;
+}
+
+.contact-text {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #40514E;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.education-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.image {
+  float: left;
+  margin-right: 30px;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.limkokwing {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.middle-container {
+  background-color: #f7fff7;
+  margin: 0 0;
+}
+
+.navigation {
+  background-color: #d7fbe8;
+  float: left;
+  width: 30%;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+}
+.navtext {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+}
+
+.seminary {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 70px auto 100px;
+  text-align: left;
+}
+
+.subtitle {
+  color: #1fab89;
+  margin-top: 10px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #d7fbe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.web-dev {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-design {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
